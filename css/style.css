@@ -1,414 +1,47 @@
-
-
-#container {
+.container{
+    width:100%;
+    overflow: hidden;
     position: absolute;
     left:0;
-    top:0;
     right:0;
-    bottom:0;
-    overflow: hidden;
-}
-
-.map-head{
-    width: 100%;
-    padding-left: 20px;
-    height: 50px;
-    line-height: 50px;
-    box-sizing: border-box;
-    background-color: #fff;
-    color:#333;
-    position: absolute;
-    left:0;
     top:0;
-    z-index: 777;
-}
-
-.mark-wrap{
-   height: 25px;
-   line-height: 25px;
-   padding:0 15px;
-   background-color: #3757fe;
-   color:#fff;
-   border-radius: 5px;
-   font-size: 12px;
-   position: relative;
-   white-space:nowrap;
-}
-.mark-wrap.click{
-    background-color: red;
-}
-.jiantou{
-    font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    bottom:-22px;
-    left:50%;
-    margin-left: -5px;
-}
-.bottom-arrow:before{
-    content:"";
-    border:5px solid #3757fe;
-    border-bottom:none;
-    border-right-color:transparent;
-    border-left-color:transparent;
-    border-radius:2px;
-}
-
-.isclick:before{
-    content:"";
-    border:5px solid red;
-    border-bottom:none;
-    border-right-color:transparent;
-    border-left-color:transparent;
-    border-radius:2px;
-}
-
-.self-a-c{
-    width: 100px;
-    height: 50px;
-    background-color: #d8d8d8;
-}
-
-.map-sidebar{
-    width:320px;
-    padding:10px;
-    position: absolute;
-    right:-340px;
-    top:50px;
     bottom:0;
-    background-color: #fff;
-    z-index: 777;
-    box-sizing: border-box;
 }
 
-.map-sid-close{
-    width: 32px;
-    height: 32px;
-    background: url(../images/map-close.png) no-repeat center center;
-    background-size: 32px 32px;
+.container img{
+    width: 100%;
+}
+
+.pp1{
     position: absolute;
-    left: -15px;
-    top:50%;
-    margin-top: -16px;
-    cursor: pointer;
+    left:100px;
+    top:50px;
+    font-size: 26px;
+    color: #fff;
 }
-
-.amap-marker-content{
-    height: 25px;
-}
-
-.map-sidebar-title{
-    font-size: 16px;
-    color:#333;
-}
-
-.jbxx-t{
-   font-size: 12px;
-   color:#333; 
-   margin:10px 0;
-}
-.jbxx-cnt{
-    overflow: hidden;
-    background-color: #f9fafc;
-    padding:10px 10px 0;
-}
-
-.jbxx-cnt-item{
-    height: 30px;
-    overflow: hidden;
-}
-
-.jbxx-cnt-item-l{
-    color:#333;
-}
-
-.jbxx-cnt-item-c{
-    width: 40px;
-    height: 20px;
-    line-height: 20px;
-    text-align: center;
-    border-radius: 10px;
-    color:#fff;
-    font-size: 12px;
-    margin:0 15px;
-}
-
-.jbxx-cnt-item-c.zaixian{
-    background-color: #33e583;
-}
-
-.jbxx-cnt-item-c.lixian{
-    background-color: #ababab;
-}
-
-
-.jbxx-cnt-item-r{
-    color:#666;
-}
-
-.jbxx-cnt-item-a{
-    font-size: 12px;
-    color:#6567ee;
-}
-
-.jbxx-cnt table{
-    width: 100%;
-    text-align: center;
-}
-
-.jbxx-cnt table th{
-    height: 30px;
-    font-weight: normal;
-    color:#000;
-}
-.jbxx-cnt table td{
-    height: 30px;
-}
-.icon_{
-    color:#3757fe;
-}
-
-
-.list-head{
-    width: 100%;
-    padding-left: 20px;
-    height: 50px;
-    line-height: 50px;
-    box-sizing: border-box;
-    background-color: #fff;
-    color:#333;
-}
-
-.list-search{
-    height: 80px;
-    padding-left: 20px;
-    line-height: 80px;
-    font-size: 14px;
-    color:#333;
-    border-top: 1px solid #d8d8d8;
-}
-
-.list-input{
-    width: 230px;
-    height: 30px;
-    line-height: 30px;
-    border:1px solid #d8d8d8;
-    padding-left:10px;
-    border-radius: 5px;
-}
-
-.list-button{
-    width: 80px;
-    height: 30px;
-    line-height: 30px;
-    border-radius: 5px;
-    text-align: center;
-    color:#fff;
-    background-color: blue;
-    border:none;
-}
-
-.my-li-table{
-    width: 100%;
-    font-size: 14px;
-    color:#666;
-    box-sizing: border-box;
-    text-align: center;
-    border-collapse:collapse; border:solid 1px #d8d8d8;
-}
-
-thead tr{
-    height: 50px;
-    line-height: 50px;
-    background-color: #fafafa;
-    border-bottom: 1px solid #d8d8d8;
-}
-
-.my-li-table tbody tr{
-    border-bottom: 1px solid #d8d8d8;
-    height: 50px;
-    line-height: 50px;
-
-}
-
-.my-li-table tbody tr td.lx{
-    color:red;
-}
-
-.detail-btn{
-    color:blue;
-    cursor: pointer;
-}
-
-.add-position-btn{
-    width: 100px;
-    height: 40px;
-    line-height: 40px;
-    font-size: 14px;
-    color:#333;
-    background-color: #fff;
+.pp2{
     position: absolute;
-    left: 20px;
-    top:70px;
-    z-index: 777;
-    text-align: center;
-    cursor: pointer;
+    left:100px;
+    top:100px;
+    font-size: 26px;
+    color: #fff;
 }
 
-.add-icon{
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    background: url("../images/tianjia.png") no-repeat;
-    background-size: 16px 16px;
-    vertical-align: -2px;
-}
-
-.add-position-alert{
-    width:240px;
-    overflow: hidden;
-    background-color: #fff;
+.pp3{
     position: absolute;
-    left: 20px;
-    top:70px;
-    z-index: 778;
-    display: none;
+    left:100px;
+    top:150px;
+    font-size: 20px;
+    color: #fff;
 }
 
-.add-p-a-title{
-    background-color: #f5f6f9;
-    height: 40px;
-    line-height: 40px;
-    padding-left: 10px;
+.pp4{
+    position: absolute;
+    left:100px;
+    top:200px;
+    font-size: 18px;
+    color: #fff;
 }
-.add-p-a-cnt{
-    overflow: hidden;
-    padding: 0 10px 10px;
-}
-
-.add-p-a-input{
-    width: 100%;
-    height: 25px;
-    line-height: 25px;
-    box-sizing: border-box;
-    padding-left: 10px;
-    border: 1px solid #d8d8d8;
-    border-radius: 5px;
-}
-
-.add-jwd{
-    width: 100px;
-    height: 25px;
-    line-height: 25px;
-    box-sizing: border-box;
-    padding-left: 10px;
-    border: 1px solid #d8d8d8;
-    border-radius: 5px;
-}
-
-.add-p-a-cnt p{
-    padding-top: 10px;
-}
-.add-jwd-foot{
-    text-align: center;
-    padding:20px 0 0;
-}
-.submit-s{
-    width:100px;
-    height: 30px;
-    line-height: 30px;
-    text-align: center;
-    color:#fff;
-    font-size: 14px;
-    background-color: #3757fe;
-    border: none;
-}
-.submit-c{
-    width:100px;
-    height: 30px;
-    line-height: 30px;
-    text-align: center;
-    color:#fff;
-    font-size: 14px;
-    background-color: #666;
-    border: none;
-}
-
-.get-jwd{
-    height: 30px;
-    line-height: 30px;
-    padding:0 10px;
-    text-align: center;
-    color:#fff;
-    font-size: 14px;
-    background-color: #3757fe;
-    border: none;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-
- .my-qiehuan{
-     width:120px;
-     height: 50px;
-     line-height: 50px;
-     float: right;
- }
-
-.map-icon{
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    background: url("../images/map.png") no-repeat;
-    vertical-align: -3px;
-}
-
-.map-icon.click{
-    background: url("../images/map_click.png") no-repeat;
-}
-
-.list-icon{
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    background: url("../images/list.png") no-repeat; 
-    vertical-align: -3px;
-}
-.list-icon.click{
-    background: url("../images/list_click.png") no-repeat;
-}
-.to-map,.to-list{
-    color:#333;
-}
-.to-map.click,.to-list.click{
-    color:#13227a;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
